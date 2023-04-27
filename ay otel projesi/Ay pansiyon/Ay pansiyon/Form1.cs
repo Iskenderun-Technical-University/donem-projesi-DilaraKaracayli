@@ -21,5 +21,20 @@ namespace Ay_pansiyon
         {
 
         }
+
+        private void BtnGirisYap_Click(object sender, EventArgs e)
+        {
+            if (TxtKullaniciAdi.Text == "admin" && TxtSifre.Text == "12345")
+            {
+                AnaForm fr = new AnaForm();
+                fr.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Kullanıcı Adi Veya Şifre Hatalı");
+            }
+
+        }
     }
 }

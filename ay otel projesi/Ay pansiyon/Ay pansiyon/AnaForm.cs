@@ -30,5 +30,12 @@ namespace Ay_pansiyon
             fr.Show();
             
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FrmMusteriler fr = new FrmMusteriler();
+            fr.Show();
+
+        }
     }
 }

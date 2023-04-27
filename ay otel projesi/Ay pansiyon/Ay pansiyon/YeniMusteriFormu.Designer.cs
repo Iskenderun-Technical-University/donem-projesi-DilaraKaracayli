@@ -30,6 +30,8 @@
         {
             this.TxtSoyadi = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.TxtTelefon = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.TxtUcret = new System.Windows.Forms.TextBox();
@@ -61,8 +63,6 @@
             this.BtnOda101 = new System.Windows.Forms.Button();
             this.BtnBosOda = new System.Windows.Forms.Button();
             this.BtnDoluOda = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.TxtTelefon = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -106,6 +106,25 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Müşteri Bilgileri";
+            // 
+            // TxtTelefon
+            // 
+            this.TxtTelefon.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TxtTelefon.Location = new System.Drawing.Point(193, 263);
+            this.TxtTelefon.MaxLength = 10;
+            this.TxtTelefon.Name = "TxtTelefon";
+            this.TxtTelefon.Size = new System.Drawing.Size(273, 34);
+            this.TxtTelefon.TabIndex = 44;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(406, 495);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(18, 20);
+            this.label11.TabIndex = 43;
+            this.label11.Text = "0";
+            this.label11.Visible = false;
             // 
             // comboBox1
             // 
@@ -205,7 +224,6 @@
             // TxtOdaNo
             // 
             this.TxtOdaNo.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.TxtOdaNo.Enabled = false;
             this.TxtOdaNo.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtOdaNo.Location = new System.Drawing.Point(192, 306);
             this.TxtOdaNo.Name = "TxtOdaNo";
@@ -445,25 +463,6 @@
             this.BtnDoluOda.Text = "Dolu";
             this.BtnDoluOda.UseVisualStyleBackColor = false;
             this.BtnDoluOda.Click += new System.EventHandler(this.BtnDoluOda_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(406, 495);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(18, 20);
-            this.label11.TabIndex = 43;
-            this.label11.Text = "0";
-            this.label11.Visible = false;
-            // 
-            // TxtTelefon
-            // 
-            this.TxtTelefon.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtTelefon.Location = new System.Drawing.Point(193, 263);
-            this.TxtTelefon.MaxLength = 10;
-            this.TxtTelefon.Name = "TxtTelefon";
-            this.TxtTelefon.Size = new System.Drawing.Size(273, 34);
-            this.TxtTelefon.TabIndex = 44;
             // 
             // YeniMusteriFormu
             // 

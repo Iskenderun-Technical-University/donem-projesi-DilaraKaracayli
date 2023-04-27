@@ -100,7 +100,7 @@ namespace Ay_pansiyon
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
             baglanti.Open();
-            SqlCommand komut = new SqlCommand("insert into MusteriEkle(Adi,Soyadi,Cinsiyet,TC,Mail,Telefon,OdaNo,Ucret) values('" +TxtAdi.Text+ "','" +TxtSoyadi.Text+ "','" + comboBox1.Text + "','"+TxtTC.Text+"','"+TxtMail.Text+"','"+TxtTelefon.Text+"','"+TxtOdaNo.Text+"','"+TxtUcret.Text+"')", baglanti);
+            SqlCommand komut = new SqlCommand("insert into MusteriEkle(Adi,Soyadi,Cinsiyet,TC,Mail,Telefon,OdaNo,Ucret,GirisTarihi,CikisTarihi) values('" +TxtAdi.Text+ "','" +TxtSoyadi.Text+ "','" + comboBox1.Text + "','"+TxtTC.Text+"','"+TxtMail.Text+"','"+TxtTelefon.Text+"','"+TxtOdaNo.Text+"','"+TxtUcret.Text+"','"+DtpGirisTarihi.Value.ToString("yyyy-MM-dd")+"','"+DtpGirisTarihi.Value.ToString("yyyy-MM-dd")+"')", baglanti);
             komut.ExecuteNonQuery();
             baglanti.Close();
             MessageBox.Show("Müşteri Kaydı Yapıldı");

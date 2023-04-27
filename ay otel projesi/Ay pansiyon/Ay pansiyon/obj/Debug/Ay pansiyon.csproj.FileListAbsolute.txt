@@ -10,3 +10,16 @@ C:\Users\Dilara\Desktop\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay_pan
 C:\Users\Dilara\Desktop\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay_pansiyon.AnaForm.resources
 C:\Users\Dilara\Desktop\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay_pansiyon.FrmAdminGiris.resources
 C:\Users\Dilara\Desktop\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay_pansiyon.FrmOdalar.resources
+C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\bin\Debug\Ay pansiyon.exe.config
+C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay pansiyon.exe
+C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay pansiyon.pdb
+C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\bin\Debug\Ay pansiyon.exe
+C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\bin\Debug\Ay pansiyon.pdb
+C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay pansiyon.csprojResolveAssemblyReference.cache
+C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay_pansiyon.AnaForm.resources
+C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay_pansiyon.FrmAdminGiris.resources
+C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay_pansiyon.FrmOdalar.resources
+C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay_pansiyon.Properties.Resources.resources
+C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay_pansiyon.YeniMusteriFormu.resources
+C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay pansiyon.csproj.GenerateResource.Cache
+C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay_pansiyon.FrmMusteriler.resources
