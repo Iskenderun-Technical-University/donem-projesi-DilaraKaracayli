@@ -26,7 +26,9 @@ namespace Ay_pansiyon
         listView1.Items.Clear();
         baglanti.Open();
         SqlCommand komut = new SqlCommand("select * from MusteriEkle ", baglanti);
+        
         SqlDataReader oku = komut.ExecuteReader();
+        
 
             while(oku.Read())
             {
@@ -45,10 +47,60 @@ namespace Ay_pansiyon
 
                 listView1.Items.Add(ekle);
             }
+            baglanti.Close();
     }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            verileriGoster();
+        }
+        int id = 0;
+        private void listView1_DoubleClick(object sender, EventArgs e)
+        {
+            id = int.Parse(listView1.SelectedItems[0].SubItems[0].Text);
+            TxtAdi.Text = listView1.SelectedItems[0].SubItems[1].Text;
+            TxtSoyadi.Text = listView1.SelectedItems[0].SubItems[2].Text;
+            comboBox1.Text = listView1.SelectedItems[0].SubItems[3].Text;
+            TxtTC.Text = listView1.SelectedItems[0].SubItems[4].Text;
+            TxtMail.Text = listView1.SelectedItems[0].SubItems[5].Text;
+            TxtTelefon.Text = listView1.SelectedItems[0].SubItems[6].Text;
+            TxtOdaNo.Text = listView1.SelectedItems[0].SubItems[7].Text;
+            TxtUcret.Text = listView1.SelectedItems[0].SubItems[8].Text;
+            DtpGirisTarihi.Text = listView1.SelectedItems[0].SubItems[9].Text;
+            DtpCikisTarihi.Text= listView1.SelectedItems[0].SubItems[10].Text;
+        }
+
+        private void BtnSil_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("delete from MusteriEkle where Musteriid=(" + id + ")",baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
+            verileriGoster();
+          
+        }
+
+        private void BtnTemizle_Click(object sender, EventArgs e)
+        {
+            TxtAdi.Clear();
+            TxtSoyadi.Clear();
+            comboBox1.Text = "";
+            TxtTC.Clear();
+            TxtMail.Clear();
+            TxtTelefon.Clear();
+            TxtOdaNo.Clear();
+            TxtUcret.Clear();
+            DtpGirisTarihi.Text = "";
+            DtpCikisTarihi.Text = "";
+
+        }
+
+        private void BtnGuncelle_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("update MusteriEkle set Adi='" + TxtAdi.Text + "',Soyadi='" + TxtSoyadi.Text + "',Cinsiyet='" + comboBox1.Text + "',TC='" + TxtTC.Text + "',Mail='" + TxtMail.Text + "',Telefon='" + TxtTelefon.Text + "',OdaNo='" + TxtOdaNo.Text + "',Ucret='" + TxtUcret.Text + "',GirisTarihi='" + DtpGirisTarihi.Value.ToString("yyyy-MM-dd") + "',CikisTarihi='" + DtpGirisTarihi.Value.ToString("yyyy-MM-dd") + "'where Musteriid=" + id + "", baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
             verileriGoster();
         }
     }

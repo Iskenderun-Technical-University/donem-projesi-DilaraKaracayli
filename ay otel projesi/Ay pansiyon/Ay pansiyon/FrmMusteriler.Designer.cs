@@ -41,8 +41,8 @@
             this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.BtnVerileriGoster = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BtnGuncelle = new System.Windows.Forms.Button();
+            this.BtnSil = new System.Windows.Forms.Button();
             this.TxtTelefon = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -65,7 +65,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BtnAra = new System.Windows.Forms.Button();
+            this.BtnTemizle = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listView1
@@ -85,12 +86,13 @@
             this.columnHeader10,
             this.columnHeader11});
             this.listView1.Location = new System.Drawing.Point(0, 376);
-            this.listView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listView1.Margin = new System.Windows.Forms.Padding(4);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(1374, 247);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.DoubleClick += new System.EventHandler(this.listView1_DoubleClick);
             // 
             // columnHeader1
             // 
@@ -151,7 +153,7 @@
             this.BtnVerileriGoster.BackColor = System.Drawing.Color.WhiteSmoke;
             this.BtnVerileriGoster.ForeColor = System.Drawing.Color.Black;
             this.BtnVerileriGoster.Location = new System.Drawing.Point(1020, 13);
-            this.BtnVerileriGoster.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnVerileriGoster.Margin = new System.Windows.Forms.Padding(4);
             this.BtnVerileriGoster.Name = "BtnVerileriGoster";
             this.BtnVerileriGoster.Size = new System.Drawing.Size(170, 53);
             this.BtnVerileriGoster.TabIndex = 1;
@@ -159,27 +161,29 @@
             this.BtnVerileriGoster.UseVisualStyleBackColor = false;
             this.BtnVerileriGoster.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button1
+            // BtnGuncelle
             // 
-            this.button1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.Location = new System.Drawing.Point(1020, 95);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 53);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Güncelle";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BtnGuncelle.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnGuncelle.Location = new System.Drawing.Point(1020, 81);
+            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnGuncelle.Name = "BtnGuncelle";
+            this.BtnGuncelle.Size = new System.Drawing.Size(170, 53);
+            this.BtnGuncelle.TabIndex = 2;
+            this.BtnGuncelle.Text = "Güncelle";
+            this.BtnGuncelle.UseVisualStyleBackColor = false;
+            this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
-            // button2
+            // BtnSil
             // 
-            this.button2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.button2.Location = new System.Drawing.Point(1020, 182);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(170, 53);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Sil";
-            this.button2.UseVisualStyleBackColor = false;
+            this.BtnSil.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnSil.Location = new System.Drawing.Point(1020, 141);
+            this.BtnSil.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnSil.Name = "BtnSil";
+            this.BtnSil.Size = new System.Drawing.Size(170, 53);
+            this.BtnSil.TabIndex = 3;
+            this.BtnSil.Text = "Sil";
+            this.BtnSil.UseVisualStyleBackColor = false;
+            this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
             // TxtTelefon
             // 
@@ -404,16 +408,28 @@
             this.label11.TabIndex = 65;
             this.label11.Text = "Aranacak Kişi";
             // 
-            // button3
+            // BtnAra
             // 
-            this.button3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.button3.Location = new System.Drawing.Point(1020, 264);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(170, 53);
-            this.button3.TabIndex = 67;
-            this.button3.Text = "Ara";
-            this.button3.UseVisualStyleBackColor = false;
+            this.BtnAra.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnAra.Location = new System.Drawing.Point(1020, 264);
+            this.BtnAra.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnAra.Name = "BtnAra";
+            this.BtnAra.Size = new System.Drawing.Size(170, 53);
+            this.BtnAra.TabIndex = 67;
+            this.BtnAra.Text = "Ara";
+            this.BtnAra.UseVisualStyleBackColor = false;
+            // 
+            // BtnTemizle
+            // 
+            this.BtnTemizle.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnTemizle.Location = new System.Drawing.Point(1020, 202);
+            this.BtnTemizle.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnTemizle.Name = "BtnTemizle";
+            this.BtnTemizle.Size = new System.Drawing.Size(170, 53);
+            this.BtnTemizle.TabIndex = 68;
+            this.BtnTemizle.Text = "Temizle";
+            this.BtnTemizle.UseVisualStyleBackColor = false;
+            this.BtnTemizle.Click += new System.EventHandler(this.BtnTemizle_Click);
             // 
             // FrmMusteriler
             // 
@@ -422,7 +438,8 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(1192, 612);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.BtnTemizle);
+            this.Controls.Add(this.BtnAra);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.TxtTelefon);
@@ -445,12 +462,12 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BtnSil);
+            this.Controls.Add(this.BtnGuncelle);
             this.Controls.Add(this.BtnVerileriGoster);
             this.Controls.Add(this.listView1);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmMusteriler";
@@ -475,8 +492,8 @@
         private System.Windows.Forms.ColumnHeader columnHeader10;
         private System.Windows.Forms.ColumnHeader columnHeader11;
         private System.Windows.Forms.Button BtnVerileriGoster;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BtnGuncelle;
+        private System.Windows.Forms.Button BtnSil;
         private System.Windows.Forms.TextBox TxtTelefon;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label10;
@@ -499,6 +516,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BtnAra;
+        private System.Windows.Forms.Button BtnTemizle;
     }
 }
