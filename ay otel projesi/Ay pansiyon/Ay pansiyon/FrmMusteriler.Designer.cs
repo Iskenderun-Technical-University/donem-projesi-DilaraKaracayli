@@ -418,6 +418,7 @@
             this.BtnAra.TabIndex = 67;
             this.BtnAra.Text = "Ara";
             this.BtnAra.UseVisualStyleBackColor = false;
+            this.BtnAra.Click += new System.EventHandler(this.BtnAra_Click);
             // 
             // BtnTemizle
             // 

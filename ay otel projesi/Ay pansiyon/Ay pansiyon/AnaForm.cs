@@ -37,5 +37,21 @@ namespace Ay_pansiyon
             fr.Show();
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Ay Pansiyon Kayıt Uygulaması / 2023 - Hatay");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FrmOdalar fr = new FrmOdalar();
+            fr.Show();
+        }
     }
 }

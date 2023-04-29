@@ -109,6 +109,7 @@
             // 
             // TxtTelefon
             // 
+            this.TxtTelefon.BackColor = System.Drawing.Color.WhiteSmoke;
             this.TxtTelefon.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtTelefon.Location = new System.Drawing.Point(193, 263);
             this.TxtTelefon.MaxLength = 10;
