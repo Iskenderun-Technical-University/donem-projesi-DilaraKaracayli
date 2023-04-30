@@ -100,6 +100,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(514, 528);
@@ -122,7 +123,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(406, 495);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(18, 20);
+            this.label11.Size = new System.Drawing.Size(19, 21);
             this.label11.TabIndex = 43;
             this.label11.Text = "0";
             this.label11.Visible = false;
@@ -336,6 +337,7 @@
             this.groupBox2.Controls.Add(this.BtnOda103);
             this.groupBox2.Controls.Add(this.BtnOda102);
             this.groupBox2.Controls.Add(this.BtnOda101);
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox2.Location = new System.Drawing.Point(547, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(376, 528);
@@ -345,10 +347,10 @@
             // 
             // BtnOda109
             // 
-            this.BtnOda109.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnOda109.Location = new System.Drawing.Point(271, 313);
+            this.BtnOda109.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnOda109.Location = new System.Drawing.Point(257, 299);
             this.BtnOda109.Name = "BtnOda109";
-            this.BtnOda109.Size = new System.Drawing.Size(63, 57);
+            this.BtnOda109.Size = new System.Drawing.Size(75, 57);
             this.BtnOda109.TabIndex = 8;
             this.BtnOda109.Text = "109";
             this.BtnOda109.UseVisualStyleBackColor = true;
@@ -356,10 +358,10 @@
             // 
             // BtnOda108
             // 
-            this.BtnOda108.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnOda108.Location = new System.Drawing.Point(167, 313);
+            this.BtnOda108.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnOda108.Location = new System.Drawing.Point(153, 299);
             this.BtnOda108.Name = "BtnOda108";
-            this.BtnOda108.Size = new System.Drawing.Size(63, 57);
+            this.BtnOda108.Size = new System.Drawing.Size(75, 57);
             this.BtnOda108.TabIndex = 7;
             this.BtnOda108.Text = "108";
             this.BtnOda108.UseVisualStyleBackColor = true;
@@ -367,10 +369,10 @@
             // 
             // BtnOda107
             // 
-            this.BtnOda107.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnOda107.Location = new System.Drawing.Point(53, 313);
+            this.BtnOda107.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnOda107.Location = new System.Drawing.Point(39, 299);
             this.BtnOda107.Name = "BtnOda107";
-            this.BtnOda107.Size = new System.Drawing.Size(63, 57);
+            this.BtnOda107.Size = new System.Drawing.Size(76, 57);
             this.BtnOda107.TabIndex = 6;
             this.BtnOda107.Text = "107";
             this.BtnOda107.UseVisualStyleBackColor = true;
@@ -378,10 +380,10 @@
             // 
             // BtnOda106
             // 
-            this.BtnOda106.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnOda106.Location = new System.Drawing.Point(271, 229);
+            this.BtnOda106.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnOda106.Location = new System.Drawing.Point(257, 215);
             this.BtnOda106.Name = "BtnOda106";
-            this.BtnOda106.Size = new System.Drawing.Size(63, 57);
+            this.BtnOda106.Size = new System.Drawing.Size(75, 57);
             this.BtnOda106.TabIndex = 5;
             this.BtnOda106.Text = "106";
             this.BtnOda106.UseVisualStyleBackColor = true;
@@ -389,10 +391,10 @@
             // 
             // BtnOda105
             // 
-            this.BtnOda105.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnOda105.Location = new System.Drawing.Point(167, 229);
+            this.BtnOda105.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnOda105.Location = new System.Drawing.Point(153, 215);
             this.BtnOda105.Name = "BtnOda105";
-            this.BtnOda105.Size = new System.Drawing.Size(63, 57);
+            this.BtnOda105.Size = new System.Drawing.Size(75, 57);
             this.BtnOda105.TabIndex = 4;
             this.BtnOda105.Text = "105";
             this.BtnOda105.UseVisualStyleBackColor = true;
@@ -400,10 +402,10 @@
             // 
             // BtnOda104
             // 
-            this.BtnOda104.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnOda104.Location = new System.Drawing.Point(53, 229);
+            this.BtnOda104.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnOda104.Location = new System.Drawing.Point(39, 215);
             this.BtnOda104.Name = "BtnOda104";
-            this.BtnOda104.Size = new System.Drawing.Size(63, 57);
+            this.BtnOda104.Size = new System.Drawing.Size(76, 57);
             this.BtnOda104.TabIndex = 3;
             this.BtnOda104.Text = "104";
             this.BtnOda104.UseVisualStyleBackColor = true;
@@ -411,10 +413,10 @@
             // 
             // BtnOda103
             // 
-            this.BtnOda103.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnOda103.Location = new System.Drawing.Point(271, 144);
+            this.BtnOda103.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnOda103.Location = new System.Drawing.Point(257, 130);
             this.BtnOda103.Name = "BtnOda103";
-            this.BtnOda103.Size = new System.Drawing.Size(63, 57);
+            this.BtnOda103.Size = new System.Drawing.Size(75, 57);
             this.BtnOda103.TabIndex = 2;
             this.BtnOda103.Text = "103";
             this.BtnOda103.UseVisualStyleBackColor = true;
@@ -422,10 +424,10 @@
             // 
             // BtnOda102
             // 
-            this.BtnOda102.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnOda102.Location = new System.Drawing.Point(167, 144);
+            this.BtnOda102.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnOda102.Location = new System.Drawing.Point(153, 130);
             this.BtnOda102.Name = "BtnOda102";
-            this.BtnOda102.Size = new System.Drawing.Size(63, 57);
+            this.BtnOda102.Size = new System.Drawing.Size(75, 57);
             this.BtnOda102.TabIndex = 1;
             this.BtnOda102.Text = "102";
             this.BtnOda102.UseVisualStyleBackColor = true;
@@ -433,10 +435,10 @@
             // 
             // BtnOda101
             // 
-            this.BtnOda101.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnOda101.Location = new System.Drawing.Point(53, 144);
+            this.BtnOda101.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnOda101.Location = new System.Drawing.Point(39, 130);
             this.BtnOda101.Name = "BtnOda101";
-            this.BtnOda101.Size = new System.Drawing.Size(63, 57);
+            this.BtnOda101.Size = new System.Drawing.Size(76, 57);
             this.BtnOda101.TabIndex = 0;
             this.BtnOda101.Text = "101";
             this.BtnOda101.UseVisualStyleBackColor = true;
@@ -480,6 +482,7 @@
             this.MinimizeBox = false;
             this.Name = "YeniMusteriFormu";
             this.Text = "Yeni Müşteri Ekle";
+            this.Load += new System.EventHandler(this.YeniMusteriFormu_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

@@ -72,12 +72,86 @@ namespace Ay_pansiyon
 
         private void BtnSil_Click(object sender, EventArgs e)
         {
-            baglanti.Open();
-            SqlCommand komut = new SqlCommand("delete from MusteriEkle where Musteriid=(" + id + ")",baglanti);
-            komut.ExecuteNonQuery();
-            baglanti.Close();
-            verileriGoster();
-          
+            if (TxtOdaNo.Text == "101")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda101 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+
+            if (TxtOdaNo.Text == "102")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda102 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+
+            if (TxtOdaNo.Text == "103")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda103 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+
+            if (TxtOdaNo.Text == "104")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda104 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+
+            if (TxtOdaNo.Text == "105")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda105 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+
+            if (TxtOdaNo.Text == "106")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda106 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+
+            if (TxtOdaNo.Text == "107")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda107 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+
+            if (TxtOdaNo.Text == "108")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda108 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+
+            if (TxtOdaNo.Text == "109")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda109 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
         }
 
         private void BtnTemizle_Click(object sender, EventArgs e)
