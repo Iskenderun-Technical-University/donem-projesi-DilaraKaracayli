@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace Ay_pansiyon
 {
@@ -16,7 +18,7 @@ namespace Ay_pansiyon
         {
             InitializeComponent();
         }
-
+        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-G9IE592\\MSSQL;Initial Catalog=aypansiyon;Integrated Security=True");
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -24,17 +26,32 @@ namespace Ay_pansiyon
 
         private void BtnGirisYap_Click(object sender, EventArgs e)
         {
-            if (TxtKullaniciAdi.Text == "admin" && TxtSifre.Text == "12345")
-            {
-                AnaForm fr = new AnaForm();
-                fr.Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Kullanıcı Adi Veya Şifre Hatalı");
-            }
 
+            try
+            {
+                baglanti.Open();
+                string sql = "select * from AdminGiris where Kullanici=@KullaniciAdi AND Sifre=@Sifresi ";
+                SqlParameter prm1 = new SqlParameter("KullaniciAdi", TxtKullaniciAdi.Text);
+                SqlParameter prm2 = new SqlParameter("Sifresi", TxtSifre.Text);
+                SqlCommand komut = new SqlCommand(sql, baglanti);
+                komut.Parameters.Add(prm1);
+                komut.Parameters.Add(prm2);
+
+                DataTable dt = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(komut);
+
+                da.Fill(dt);
+                if(dt.Rows.Count>0)
+                {
+                    AnaForm fr = new AnaForm();
+                    fr.Show();
+                    this.Hide();
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Hatalı Giriş");
+            }
         }
     }
 }

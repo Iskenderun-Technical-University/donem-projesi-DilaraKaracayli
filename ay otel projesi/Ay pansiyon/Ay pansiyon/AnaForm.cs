@@ -53,5 +53,26 @@ namespace Ay_pansiyon
             FrmOdalar fr = new FrmOdalar();
             fr.Show();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AnaForm_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label1.Text = DateTime.Now.ToLongDateString();
+            label2.Text = DateTime.Now.ToLongTimeString();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
