@@ -40,7 +40,8 @@ namespace Ay_pansiyon
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            FrmGelirGider fr = new FrmGelirGider();
+            fr.Show();
         }
 
         private void button9_Click(object sender, EventArgs e)

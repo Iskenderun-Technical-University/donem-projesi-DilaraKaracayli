@@ -206,6 +206,11 @@ namespace Ay_pansiyon
             }
             baglanti.Close();
         }
+
+        private void FrmMusteriler_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 //Data Source=DESKTOP-G9IE592\MSSQL;Initial Catalog=aypansiyon;Integrated Security=True
