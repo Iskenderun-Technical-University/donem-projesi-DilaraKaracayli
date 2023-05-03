@@ -24,3 +24,4 @@ C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyo
 C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay pansiyon.csproj.GenerateResource.Cache
 C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay_pansiyon.FrmMusteriler.resources
 C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay_pansiyon.FrmGelirGider.resources
+C:\Users\Dilara\Desktop\donem-projesi-DilaraKaracayli\ay otel projesi\Ay pansiyon\Ay pansiyon\obj\Debug\Ay_pansiyon.FrmStoklar.resources

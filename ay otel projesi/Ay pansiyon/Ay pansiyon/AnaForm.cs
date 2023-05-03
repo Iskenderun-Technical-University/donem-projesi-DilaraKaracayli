@@ -75,5 +75,11 @@ namespace Ay_pansiyon
         {
             Application.Exit();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FrmStoklar fr = new FrmStoklar();
+            fr.Show();
+        }
     }
 }
