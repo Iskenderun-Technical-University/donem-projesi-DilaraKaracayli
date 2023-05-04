@@ -33,13 +33,17 @@
             this.İçecekler = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Atıştırmalıklar = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.listView2 = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.BtnKaydet2 = new System.Windows.Forms.Button();
+            this.TxtInternet = new System.Windows.Forms.TextBox();
+            this.TxtElektirik = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.TxtSu = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.BtnKaydet = new System.Windows.Forms.Button();
             this.TxtAtistirmaliklar = new System.Windows.Forms.TextBox();
@@ -48,17 +52,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.listView2 = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // listView1
             // 
-            this.listView1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.listView1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.Gıdalar,
             this.İçecekler,
@@ -90,67 +90,77 @@
             // 
             this.groupBox2.Controls.Add(this.listView2);
             this.groupBox2.Controls.Add(this.BtnKaydet2);
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.TxtInternet);
+            this.groupBox2.Controls.Add(this.TxtElektirik);
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.TxtSu);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Location = new System.Drawing.Point(489, 12);
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox2.Location = new System.Drawing.Point(489, 3);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(499, 442);
+            this.groupBox2.Size = new System.Drawing.Size(518, 451);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.groupBox2.Text = "Faturalar";
             // 
-            // textBox1
+            // listView2
             // 
-            this.textBox1.BackColor = System.Drawing.Color.SeaShell;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.Location = new System.Drawing.Point(192, 172);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(220, 34);
-            this.textBox1.TabIndex = 19;
+            this.listView2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3});
+            this.listView2.Location = new System.Drawing.Point(-6, 284);
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(524, 167);
+            this.listView2.TabIndex = 21;
+            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.listView2.View = System.Windows.Forms.View.Details;
             // 
-            // textBox2
+            // columnHeader1
             // 
-            this.textBox2.BackColor = System.Drawing.Color.SeaShell;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox2.Location = new System.Drawing.Point(192, 104);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(220, 34);
-            this.textBox2.TabIndex = 18;
+            this.columnHeader1.Text = "Elektirik";
+            this.columnHeader1.Width = 178;
             // 
-            // textBox3
+            // columnHeader2
             // 
-            this.textBox3.BackColor = System.Drawing.Color.SeaShell;
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox3.Location = new System.Drawing.Point(193, 52);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(219, 34);
-            this.textBox3.TabIndex = 17;
+            this.columnHeader2.Text = "Su";
+            this.columnHeader2.Width = 151;
             // 
-            // label4
+            // columnHeader3
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(67, 172);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 28);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "İnternet:";
+            this.columnHeader3.Text = "İnternet";
+            this.columnHeader3.Width = 162;
             // 
-            // label5
+            // BtnKaydet2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(120, 114);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 28);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "Su:";
+            this.BtnKaydet2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnKaydet2.Location = new System.Drawing.Point(204, 228);
+            this.BtnKaydet2.Name = "BtnKaydet2";
+            this.BtnKaydet2.Size = new System.Drawing.Size(167, 41);
+            this.BtnKaydet2.TabIndex = 20;
+            this.BtnKaydet2.Text = "Kaydet";
+            this.BtnKaydet2.UseVisualStyleBackColor = true;
+            this.BtnKaydet2.Click += new System.EventHandler(this.BtnKaydet2_Click);
+            // 
+            // TxtInternet
+            // 
+            this.TxtInternet.BackColor = System.Drawing.Color.SeaShell;
+            this.TxtInternet.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TxtInternet.Location = new System.Drawing.Point(192, 172);
+            this.TxtInternet.Name = "TxtInternet";
+            this.TxtInternet.Size = new System.Drawing.Size(220, 34);
+            this.TxtInternet.TabIndex = 19;
+            // 
+            // TxtElektirik
+            // 
+            this.TxtElektirik.BackColor = System.Drawing.Color.SeaShell;
+            this.TxtElektirik.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TxtElektirik.Location = new System.Drawing.Point(193, 52);
+            this.TxtElektirik.Name = "TxtElektirik";
+            this.TxtElektirik.Size = new System.Drawing.Size(219, 34);
+            this.TxtElektirik.TabIndex = 17;
             // 
             // label6
             // 
@@ -163,15 +173,36 @@
             this.label6.TabIndex = 14;
             this.label6.Text = "Elektirik:";
             // 
-            // BtnKaydet2
+            // TxtSu
             // 
-            this.BtnKaydet2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnKaydet2.Location = new System.Drawing.Point(204, 228);
-            this.BtnKaydet2.Name = "BtnKaydet2";
-            this.BtnKaydet2.Size = new System.Drawing.Size(167, 41);
-            this.BtnKaydet2.TabIndex = 20;
-            this.BtnKaydet2.Text = "Kaydet";
-            this.BtnKaydet2.UseVisualStyleBackColor = true;
+            this.TxtSu.BackColor = System.Drawing.Color.SeaShell;
+            this.TxtSu.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TxtSu.Location = new System.Drawing.Point(192, 104);
+            this.TxtSu.Name = "TxtSu";
+            this.TxtSu.Size = new System.Drawing.Size(220, 34);
+            this.TxtSu.TabIndex = 18;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(120, 114);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(40, 28);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Su:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(67, 172);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(93, 28);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "İnternet:";
             // 
             // groupBox1
             // 
@@ -183,12 +214,13 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.Location = new System.Drawing.Point(-8, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(491, 460);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Mutfak";
             // 
             // BtnKaydet
             // 
@@ -260,41 +292,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Gıda Tutarı:";
             // 
-            // listView2
-            // 
-            this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3});
-            this.listView2.Location = new System.Drawing.Point(6, 275);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(493, 161);
-            this.listView2.TabIndex = 21;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            this.listView2.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Elektirik";
-            this.columnHeader1.Width = 178;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Su";
-            this.columnHeader2.Width = 151;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "İnternet";
-            this.columnHeader3.Width = 162;
-            // 
             // FrmStoklar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1000, 453);
+            this.ClientSize = new System.Drawing.Size(1015, 453);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.MaximizeBox = false;
@@ -317,10 +321,10 @@
         private System.Windows.Forms.ColumnHeader İçecekler;
         private System.Windows.Forms.ColumnHeader Atıştırmalıklar;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox TxtInternet;
+        private System.Windows.Forms.TextBox TxtElektirik;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox TxtSu;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ListView listView2;

@@ -25,6 +25,10 @@ namespace Ay_pansiyon
             int personel;
             personel = Convert.ToInt16(textBox1.Text);
             LblPersonelMaas.Text = (personel * 1500).ToString();
+
+            int sonuc;
+            sonuc = Convert.ToInt32(LblKasaToplam.Text) - (Convert.ToInt32(LblPersonelMaas.Text) + Convert.ToInt32(LblAlinanUrunler1.Text) + Convert.ToInt32(LblAlinanUrunler2.Text) + Convert.ToInt32(LblAlinanUrunler3.Text) + Convert.ToInt32(LblFaturalar1.Text) + Convert.ToInt32(LblFaturalar2.Text) + Convert.ToInt32(LblFaturalar3.Text));
+            LblSonuc.Text = sonuc.ToString();
         }
 
         private void FrmGelirGider_Load(object sender, EventArgs e)
@@ -68,6 +72,36 @@ namespace Ay_pansiyon
             while (oku4.Read())
             {
                 LblAlinanUrunler3.Text = oku4["toplam3"].ToString();
+            }
+            baglanti.Close();
+
+            //Elektirik
+            baglanti.Open();
+            SqlCommand komut5 = new SqlCommand("Select sum(Elektirik) as toplam4 from Faturalar", baglanti);
+            SqlDataReader oku5 = komut5.ExecuteReader();
+            while (oku5.Read())
+            {
+                LblFaturalar1.Text = oku5["toplam4"].ToString();
+            }
+            baglanti.Close();
+
+            //Su
+            baglanti.Open();
+            SqlCommand komut6 = new SqlCommand("Select sum(Su) as toplam5 from Faturalar", baglanti);
+            SqlDataReader oku6 = komut6.ExecuteReader();
+            while (oku6.Read())
+            {
+                LblFaturalar2.Text = oku6["toplam5"].ToString();
+            }
+            baglanti.Close();
+
+            //İnternet
+            baglanti.Open();
+            SqlCommand komut7 = new SqlCommand("Select sum(Internet) as toplam6 from Faturalar", baglanti);
+            SqlDataReader oku7 = komut7.ExecuteReader();
+            while (oku7.Read())
+            {
+                LblFaturalar3.Text = oku7["toplam6"].ToString();
             }
             baglanti.Close();
 

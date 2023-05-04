@@ -35,15 +35,17 @@
             this.label5 = new System.Windows.Forms.Label();
             this.LblAlinanUrunler1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.LblFaturalar = new System.Windows.Forms.Label();
+            this.LblFaturalar1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.LblSonuc = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.LblAlinanUrunler2 = new System.Windows.Forms.Label();
             this.LblAlinanUrunler3 = new System.Windows.Forms.Label();
+            this.LblFaturalar2 = new System.Windows.Forms.Label();
+            this.LblFaturalar3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -120,15 +122,15 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "Faturalar:";
             // 
-            // LblFaturalar
+            // LblFaturalar1
             // 
-            this.LblFaturalar.AutoSize = true;
-            this.LblFaturalar.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.LblFaturalar.Location = new System.Drawing.Point(266, 194);
-            this.LblFaturalar.Name = "LblFaturalar";
-            this.LblFaturalar.Size = new System.Drawing.Size(34, 28);
-            this.LblFaturalar.TabIndex = 7;
-            this.LblFaturalar.Text = "00\r\n";
+            this.LblFaturalar1.AutoSize = true;
+            this.LblFaturalar1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblFaturalar1.Location = new System.Drawing.Point(266, 194);
+            this.LblFaturalar1.Name = "LblFaturalar1";
+            this.LblFaturalar1.Size = new System.Drawing.Size(34, 28);
+            this.LblFaturalar1.TabIndex = 7;
+            this.LblFaturalar1.Text = "00\r\n";
             // 
             // textBox1
             // 
@@ -171,15 +173,15 @@
             this.label10.TabIndex = 11;
             this.label10.Text = "Sonuç:";
             // 
-            // label11
+            // LblSonuc
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(266, 270);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(34, 28);
-            this.label11.TabIndex = 12;
-            this.label11.Text = "00";
+            this.LblSonuc.AutoSize = true;
+            this.LblSonuc.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblSonuc.Location = new System.Drawing.Point(266, 270);
+            this.LblSonuc.Name = "LblSonuc";
+            this.LblSonuc.Size = new System.Drawing.Size(34, 28);
+            this.LblSonuc.TabIndex = 12;
+            this.LblSonuc.Text = "00";
             // 
             // label12
             // 
@@ -212,21 +214,43 @@
             this.LblAlinanUrunler3.TabIndex = 15;
             this.LblAlinanUrunler3.Text = "00";
             // 
+            // LblFaturalar2
+            // 
+            this.LblFaturalar2.AutoSize = true;
+            this.LblFaturalar2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblFaturalar2.Location = new System.Drawing.Point(376, 194);
+            this.LblFaturalar2.Name = "LblFaturalar2";
+            this.LblFaturalar2.Size = new System.Drawing.Size(34, 28);
+            this.LblFaturalar2.TabIndex = 16;
+            this.LblFaturalar2.Text = "00\r\n";
+            // 
+            // LblFaturalar3
+            // 
+            this.LblFaturalar3.AutoSize = true;
+            this.LblFaturalar3.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblFaturalar3.Location = new System.Drawing.Point(462, 194);
+            this.LblFaturalar3.Name = "LblFaturalar3";
+            this.LblFaturalar3.Size = new System.Drawing.Size(34, 28);
+            this.LblFaturalar3.TabIndex = 17;
+            this.LblFaturalar3.Text = "00\r\n";
+            // 
             // FrmGelirGider
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(756, 409);
+            this.Controls.Add(this.LblFaturalar3);
+            this.Controls.Add(this.LblFaturalar2);
             this.Controls.Add(this.LblAlinanUrunler3);
             this.Controls.Add(this.LblAlinanUrunler2);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.LblSonuc);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.LblFaturalar);
+            this.Controls.Add(this.LblFaturalar1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.LblAlinanUrunler1);
             this.Controls.Add(this.label5);
@@ -251,14 +275,16 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label LblAlinanUrunler1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label LblFaturalar;
+        private System.Windows.Forms.Label LblFaturalar1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label LblSonuc;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label LblAlinanUrunler2;
         private System.Windows.Forms.Label LblAlinanUrunler3;
+        private System.Windows.Forms.Label LblFaturalar2;
+        private System.Windows.Forms.Label LblFaturalar3;
     }
 }
