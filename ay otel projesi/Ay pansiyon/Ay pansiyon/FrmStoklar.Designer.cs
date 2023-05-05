@@ -304,7 +304,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmStoklar";
-            this.Text = "FrmStoklar";
+            this.Text = "Stoklar&Faturalar";
             this.Load += new System.EventHandler(this.FrmStoklar_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

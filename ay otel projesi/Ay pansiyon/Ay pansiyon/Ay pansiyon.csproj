@@ -74,6 +74,12 @@
     <Compile Include="FrmOdalar.Designer.cs">
       <DependentUpon>FrmOdalar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmRadyoDinle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRadyoDinle.Designer.cs">
+      <DependentUpon>FrmRadyoDinle.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmStoklar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +109,9 @@
     <EmbeddedResource Include="FrmOdalar.resx">
       <DependentUpon>FrmOdalar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmRadyoDinle.resx">
+      <DependentUpon>FrmRadyoDinle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmStoklar.resx">
       <DependentUpon>FrmStoklar.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +139,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

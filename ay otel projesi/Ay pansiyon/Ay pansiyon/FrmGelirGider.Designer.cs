@@ -238,6 +238,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(756, 409);
             this.Controls.Add(this.LblFaturalar3);
@@ -258,8 +259,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.LblKasaToplam);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmGelirGider";
-            this.Text = "FrmGelirGider";
+            this.Text = "Gelir Gider";
             this.Load += new System.EventHandler(this.FrmGelirGider_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
