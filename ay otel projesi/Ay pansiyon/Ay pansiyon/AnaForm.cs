@@ -87,5 +87,11 @@ namespace Ay_pansiyon
             FrmRadyoDinle fr = new FrmRadyoDinle();
             fr.Show();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            FrmGazeteler fr = new FrmGazeteler();
+            fr.Show();
+        }
     }
 }

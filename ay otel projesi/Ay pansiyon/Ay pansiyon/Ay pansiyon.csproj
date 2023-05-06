@@ -56,6 +56,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmGazeteler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGazeteler.Designer.cs">
+      <DependentUpon>FrmGazeteler.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmGelirGider.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGazeteler.resx">
+      <DependentUpon>FrmGazeteler.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmGelirGider.resx">
       <DependentUpon>FrmGelirGider.cs</DependentUpon>
