@@ -154,12 +154,14 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.SeaShell;
+            this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(467, 270);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(183, 41);
             this.button1.TabIndex = 10;
             this.button1.Text = "Hesapla";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label10

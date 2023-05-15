@@ -41,93 +41,102 @@
             // 
             // BtnOda109
             // 
+            this.BtnOda109.BackColor = System.Drawing.Color.SeaShell;
             this.BtnOda109.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda109.Location = new System.Drawing.Point(406, 313);
             this.BtnOda109.Name = "BtnOda109";
             this.BtnOda109.Size = new System.Drawing.Size(124, 95);
             this.BtnOda109.TabIndex = 17;
             this.BtnOda109.Text = "109";
-            this.BtnOda109.UseVisualStyleBackColor = true;
+            this.BtnOda109.UseVisualStyleBackColor = false;
             // 
             // BtnOda108
             // 
+            this.BtnOda108.BackColor = System.Drawing.Color.SeaShell;
             this.BtnOda108.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda108.Location = new System.Drawing.Point(228, 313);
             this.BtnOda108.Name = "BtnOda108";
             this.BtnOda108.Size = new System.Drawing.Size(124, 95);
             this.BtnOda108.TabIndex = 16;
             this.BtnOda108.Text = "108";
-            this.BtnOda108.UseVisualStyleBackColor = true;
+            this.BtnOda108.UseVisualStyleBackColor = false;
             // 
             // BtnOda107
             // 
+            this.BtnOda107.BackColor = System.Drawing.Color.SeaShell;
             this.BtnOda107.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda107.Location = new System.Drawing.Point(56, 313);
             this.BtnOda107.Name = "BtnOda107";
             this.BtnOda107.Size = new System.Drawing.Size(124, 95);
             this.BtnOda107.TabIndex = 15;
             this.BtnOda107.Text = "107";
-            this.BtnOda107.UseVisualStyleBackColor = true;
+            this.BtnOda107.UseVisualStyleBackColor = false;
             // 
             // BtnOda106
             // 
+            this.BtnOda106.BackColor = System.Drawing.Color.SeaShell;
             this.BtnOda106.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda106.Location = new System.Drawing.Point(406, 196);
             this.BtnOda106.Name = "BtnOda106";
             this.BtnOda106.Size = new System.Drawing.Size(124, 95);
             this.BtnOda106.TabIndex = 14;
             this.BtnOda106.Text = "106";
-            this.BtnOda106.UseVisualStyleBackColor = true;
+            this.BtnOda106.UseVisualStyleBackColor = false;
             // 
             // BtnOda105
             // 
+            this.BtnOda105.BackColor = System.Drawing.Color.SeaShell;
             this.BtnOda105.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda105.Location = new System.Drawing.Point(228, 196);
             this.BtnOda105.Name = "BtnOda105";
             this.BtnOda105.Size = new System.Drawing.Size(124, 95);
             this.BtnOda105.TabIndex = 13;
             this.BtnOda105.Text = "105";
-            this.BtnOda105.UseVisualStyleBackColor = true;
+            this.BtnOda105.UseVisualStyleBackColor = false;
             // 
             // BtnOda104
             // 
+            this.BtnOda104.BackColor = System.Drawing.Color.SeaShell;
             this.BtnOda104.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda104.Location = new System.Drawing.Point(56, 196);
             this.BtnOda104.Name = "BtnOda104";
             this.BtnOda104.Size = new System.Drawing.Size(124, 95);
             this.BtnOda104.TabIndex = 12;
             this.BtnOda104.Text = "104";
-            this.BtnOda104.UseVisualStyleBackColor = true;
+            this.BtnOda104.UseVisualStyleBackColor = false;
             // 
             // BtnOda103
             // 
+            this.BtnOda103.BackColor = System.Drawing.Color.SeaShell;
             this.BtnOda103.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda103.Location = new System.Drawing.Point(406, 76);
             this.BtnOda103.Name = "BtnOda103";
             this.BtnOda103.Size = new System.Drawing.Size(124, 95);
             this.BtnOda103.TabIndex = 11;
             this.BtnOda103.Text = "103";
-            this.BtnOda103.UseVisualStyleBackColor = true;
+            this.BtnOda103.UseVisualStyleBackColor = false;
             // 
             // BtnOda102
             // 
+            this.BtnOda102.BackColor = System.Drawing.Color.SeaShell;
             this.BtnOda102.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda102.Location = new System.Drawing.Point(228, 76);
             this.BtnOda102.Name = "BtnOda102";
             this.BtnOda102.Size = new System.Drawing.Size(124, 95);
             this.BtnOda102.TabIndex = 10;
             this.BtnOda102.Text = "102";
-            this.BtnOda102.UseVisualStyleBackColor = true;
+            this.BtnOda102.UseVisualStyleBackColor = false;
             // 
             // BtnOda101
             // 
+            this.BtnOda101.BackColor = System.Drawing.Color.SeaShell;
             this.BtnOda101.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda101.Location = new System.Drawing.Point(56, 76);
             this.BtnOda101.Name = "BtnOda101";
             this.BtnOda101.Size = new System.Drawing.Size(124, 95);
             this.BtnOda101.TabIndex = 9;
             this.BtnOda101.Text = "101";
-            this.BtnOda101.UseVisualStyleBackColor = true;
+            this.BtnOda101.UseVisualStyleBackColor = false;
             // 
             // FrmOdalar
             // 

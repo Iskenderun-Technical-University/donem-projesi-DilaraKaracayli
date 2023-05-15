@@ -97,6 +97,7 @@
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox2.ForeColor = System.Drawing.Color.Black;
             this.groupBox2.Location = new System.Drawing.Point(489, 3);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(518, 451);
@@ -135,13 +136,14 @@
             // 
             // BtnKaydet2
             // 
+            this.BtnKaydet2.BackColor = System.Drawing.Color.SeaShell;
             this.BtnKaydet2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnKaydet2.Location = new System.Drawing.Point(204, 228);
             this.BtnKaydet2.Name = "BtnKaydet2";
             this.BtnKaydet2.Size = new System.Drawing.Size(167, 41);
             this.BtnKaydet2.TabIndex = 20;
             this.BtnKaydet2.Text = "Kaydet";
-            this.BtnKaydet2.UseVisualStyleBackColor = true;
+            this.BtnKaydet2.UseVisualStyleBackColor = false;
             this.BtnKaydet2.Click += new System.EventHandler(this.BtnKaydet2_Click);
             // 
             // TxtInternet
@@ -224,13 +226,14 @@
             // 
             // BtnKaydet
             // 
+            this.BtnKaydet.BackColor = System.Drawing.Color.SeaShell;
             this.BtnKaydet.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnKaydet.Location = new System.Drawing.Point(173, 237);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(167, 41);
             this.BtnKaydet.TabIndex = 14;
             this.BtnKaydet.Text = "Kaydet";
-            this.BtnKaydet.UseVisualStyleBackColor = true;
+            this.BtnKaydet.UseVisualStyleBackColor = false;
             // 
             // TxtAtistirmaliklar
             // 

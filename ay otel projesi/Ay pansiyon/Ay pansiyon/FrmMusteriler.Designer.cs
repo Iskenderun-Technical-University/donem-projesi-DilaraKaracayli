@@ -240,6 +240,7 @@
             // 
             // DtpCikisTarihi
             // 
+            this.DtpCikisTarihi.CalendarMonthBackground = System.Drawing.Color.SeaShell;
             this.DtpCikisTarihi.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.DtpCikisTarihi.Location = new System.Drawing.Point(670, 171);
             this.DtpCikisTarihi.Name = "DtpCikisTarihi";
@@ -248,6 +249,7 @@
             // 
             // DtpGirisTarihi
             // 
+            this.DtpGirisTarihi.CalendarMonthBackground = System.Drawing.Color.SeaShell;
             this.DtpGirisTarihi.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.DtpGirisTarihi.Location = new System.Drawing.Point(670, 131);
             this.DtpGirisTarihi.Name = "DtpGirisTarihi";
