@@ -86,6 +86,12 @@
     <Compile Include="FrmRadyoDinle.Designer.cs">
       <DependentUpon>FrmRadyoDinle.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSifreGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSifreGuncelle.Designer.cs">
+      <DependentUpon>FrmSifreGuncelle.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmStoklar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRadyoDinle.resx">
       <DependentUpon>FrmRadyoDinle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSifreGuncelle.resx">
+      <DependentUpon>FrmSifreGuncelle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmStoklar.resx">
       <DependentUpon>FrmStoklar.cs</DependentUpon>
