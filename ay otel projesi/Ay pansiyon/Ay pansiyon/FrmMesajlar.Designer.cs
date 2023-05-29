@@ -87,6 +87,7 @@
             this.BtnKaydet.TabIndex = 4;
             this.BtnKaydet.Text = "Mesaj Kaydet";
             this.BtnKaydet.UseVisualStyleBackColor = false;
+            this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
             // listView1
             // 
@@ -129,6 +130,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmMesajlar";
             this.Text = "FrmMesajlar";
+            this.Load += new System.EventHandler(this.FrmMesajlar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

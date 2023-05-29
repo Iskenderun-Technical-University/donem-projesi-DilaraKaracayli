@@ -99,5 +99,11 @@ namespace Ay_pansiyon
             FrmSifreGuncelle fr = new FrmSifreGuncelle();
             fr.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            FrmMesajlar fr = new FrmMesajlar();
+            fr.Show();
+        }
     }
 }
