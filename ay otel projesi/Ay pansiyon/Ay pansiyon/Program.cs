@@ -16,7 +16,7 @@ namespace Ay_pansiyon
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AnaForm());
+            Application.Run(new FrmAdminGiris());
         }
     }
 }

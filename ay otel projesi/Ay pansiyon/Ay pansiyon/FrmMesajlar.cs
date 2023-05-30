@@ -55,5 +55,13 @@ namespace Ay_pansiyon
         {
             verileriGoster();
         }
+        int id = 0;
+
+        private void listView1_DoubleClick(object sender, EventArgs e)
+        {
+            id = int.Parse(listView1.SelectedItems[0].SubItems[0].Text);
+            textBox1.Text = listView1.SelectedItems[0].SubItems[1].Text;
+            richTextBox1.Text = listView1.SelectedItems[0].SubItems[2].Text;
+        }
     }
 }

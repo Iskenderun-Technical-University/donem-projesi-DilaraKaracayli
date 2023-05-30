@@ -95,12 +95,13 @@
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3});
-            this.listView1.Location = new System.Drawing.Point(7, 317);
+            this.listView1.Location = new System.Drawing.Point(7, 314);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(548, 117);
             this.listView1.TabIndex = 5;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.DoubleClick += new System.EventHandler(this.listView1_DoubleClick);
             // 
             // columnHeader1
             // 
@@ -120,6 +121,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(567, 430);
             this.Controls.Add(this.listView1);
@@ -128,6 +130,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmMesajlar";
             this.Text = "FrmMesajlar";
             this.Load += new System.EventHandler(this.FrmMesajlar_Load);
