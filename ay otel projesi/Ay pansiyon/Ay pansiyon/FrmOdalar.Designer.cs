@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmOdalar));
             this.BtnOda109 = new System.Windows.Forms.Button();
             this.BtnOda108 = new System.Windows.Forms.Button();
             this.BtnOda107 = new System.Windows.Forms.Button();
@@ -154,6 +155,7 @@
             this.Controls.Add(this.BtnOda103);
             this.Controls.Add(this.BtnOda102);
             this.Controls.Add(this.BtnOda101);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmOdalar";
